@@ -1,9 +1,9 @@
-/* * 	
+/* *
  * *	Dynamic Text Group styling
  * *	@author: Brock Petrie, brockpetrie@gmail.com
  * *	@source: http://github.com/brockpetrie/dynamictextgroup
  * */
-	
+
 .field-dynamictextgroup div.frame ul.selection li { padding-right: 0; }
 
 .field-dynamictextgroup div.frame span {
@@ -16,7 +16,7 @@
 	-moz-box-sizing: border-box;
 	line-height: 1em;
 	}
-	
+
 .field-dynamictextgroup .frame > ol {
 	box-shadow: 0 1px 2px rgba(0,0,0,0.12) !important;
 	}
@@ -29,12 +29,15 @@
 			border-bottom-left-radius: 4px;
 			border-bottom-right-radius: 4px;
 			}
-	
+
 .field-dynamictextgroup ol > li header {
 	padding: 7px 60px 7px 14px;
 	background: rgba(245,245,245,0);
+    background-image: url(images/draghandle-sprite.png);
+    background-position: 0px center;
+    background-repeat: no-repeat;
 	}
-	
+
 	.field-dynamictextgroup .frame.single ol > li header { padding: 7px; }
 	.field-dynamictextgroup .frame > ol > li header { cursor: pointer; }
 	.field-dynamictextgroup ol > li header.focus {
@@ -159,7 +162,7 @@ ul.select2-results > li.placeholder {
 
 
 /*	*	*	Bad/invalid item styling	*	*	*/
-		
+
 .field-dynamictextgroup .invalid input[type="text"]:focus { border: 1px solid rgba(0, 0, 0, 0.4); }
 .field-dynamictextgroup .invalid input[type="text"] { border: 1px solid rgba(0, 0, 0, 0.25); }
 
@@ -169,7 +172,7 @@ ul.select2-results > li.placeholder {
 .field-dynamictextgroup .invalid .dtg .baditem label {
 	border: 1px solid #cc3311 !important;
 	}
-	
+
 .field-dynamictextgroup .invalid .dtg .req .select2-choice.select2-default > span { color: #eb6347 !important; }
 
 .field-dynamictextgroup .invalid .new .req input[value=""] {
@@ -179,7 +182,7 @@ ul.select2-results > li.placeholder {
 	border: 1px solid #C2C2C2 !important;
 	border-bottom-color:#bbb !important;
 	}
-	
+
 
 /* Radio Styling
 .field-dynamictextgroup div.duplicator .fieldtype-radio input, .field-dynamictextgroup div.duplicator .fieldtype-checkbox input { position:relative; top:1px; }
